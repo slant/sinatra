@@ -37,6 +37,9 @@
    of issues with extensions that need to add any of these things
    to the base class.
 
+ * pass takes an optional block to be treated as the route handler
+   if not subsequent route matches the request.
+
 The following Sinatra features have been obsoleted in the 1.0 release:
 
  * The `sinatra/test` library is obsolete. This includes the
